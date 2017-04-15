@@ -1,3 +1,38 @@
+html {
+	padding: 60px;
+	border: solid crimson 10px;
+}
+
 body {
-	background: blue;
+	background: linen;
+
+}
+
+header #title {
+	margin-left: 15%;
+	color: crimson;
+	text-shadow: darkgoldenrod 5px 5px;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: serif;
+}
+
+header #basketball {
+	width: 100%;
+}
+
+section h2 #welcome-head {
+	display: center;
+	font-family: serif;
+	font-size: 3em;
+	color: crimson;
+}
+
+.prospect-info {
+	color: firebrick;
+	font-size: 1.2em;
+}
+
+.prospect-list {
+	color: goldenrod;
 }
