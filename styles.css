@@ -34,6 +34,10 @@ header #basketball {
 	font-weight: lighter;
 }
 
+a:visited {
+	color: gray;
+}
+
 .prospect-head {
 	font-size: 1.6em;
 	color: crimson;
@@ -45,14 +49,12 @@ header #basketball {
 }
 
 .prospect-list {
-	color: coral;
+	color: darkred;
 	font-size: 1em;
 }
 
-#cyborg-image {
-	width: 100%;
-	margin-top: 6%;
-	margin-bottom: 6%;
+#ravi-quote {
+
 }
 
 #postgame-head {
@@ -65,7 +67,10 @@ header #basketball {
 #postgame-info {
 	font-size: 1.2em;
 	font-weight: lighter;
+	color: black;
 	margin-top: -6%;
+	background-image: url("images/Cyborg man.jpg");
+	background-size: 100% 100% 100%;
 }
 
 #form-info {
