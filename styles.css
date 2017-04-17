@@ -21,18 +21,68 @@ header #basketball {
 	width: 100%;
 }
 
-section h2 #welcome-head {
+#welcome-head {
 	display: center;
 	font-family: serif;
-	font-size: 3em;
+	font-size: 2.4em;
+	color: crimson;
+	border-bottom: solid 2px goldenrod;
+}
+
+#welcome-message {
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
+.prospect-head {
+	font-size: 1.6em;
 	color: crimson;
 }
 
 .prospect-info {
-	color: firebrick;
+	color: black;
 	font-size: 1.2em;
 }
 
 .prospect-list {
-	color: goldenrod;
+	color: coral;
+	font-size: 1em;
+}
+
+#cyborg-image {
+	width: 100%;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+#postgame-head {
+	font-family: serif;
+	font-size: 2.4em;
+	color: crimson;
+	border-bottom: solid 2px goldenrod;
+}
+
+#postgame-info {
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin-top: -6%;
+}
+
+#form-info {
+	border: crimson solid 2px;
+}
+
+#other {
+	border: 2px black solid;
+	margin-top: 8%;
+}
+
+#closing-reminder {
+	font-family: serif;
+	color: crimson;
+	text-shadow: darkgoldenrod 5px 5px;
+	font-size: 1.4em;
+	margin: 0 auto;
+	display: block;
+	width: 35%;
 }
